@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Layout</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="assets/css/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/css/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+<!-- Header -->
+			<div class="col-12 px-0"><img src="assets/images/Header.jpg" class="img-fluid" mx-auto></div>
+			<nav class="navbar navbar-expand-sm navbar-light sticky-top container-fluid" role="navigation" style="background-color: #FFF0E1">
+<!-- Logo -->
+        <a class="navbar-brand font-weight-bold" href="#"><img src="assets/images/Logo.jpg" style="width: 200px; height: 100px"></a>
+<!-- Membungkus isi navbar -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+				</button>
+<!-- Isi Navigasi/Links -->
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+<!-- Ini space, margin kanan-->
+          <ul class="navbar-nav mr-auto"></ul>
+					<ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">PRODUCT</a>
+    				</li>
+    				<li class="nav-item">
+  						<a class="nav-link" href="#">ORDER</a>
+    				</li>
+    				<li class="nav-item">
+      				<a class="nav-link" href="#">CUSTOM CAKE</a>
+    				</li>
+    				<li class="nav-item">
+              <a class="nav-link" href="#">OUR STORY</a>
+    				</li>
+    				<li class="nav-item">
+      				<a class="nav-link " href="#">CONTACT</a>
+    				</li>
+  				</ul>
+  				<ul class="navbar-nav mr-auto"></ul>
+          <form class="form-inline">
+            <input class="form-control mr-sm-1" type="text" placeholder="Search">
+    				<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-ok-circle"></span>Search
+    				</button>
+  				</form>
+  			</div>
+			</nav>
+<!-- Banner -->
+			<div class="col-12 col-md-5 col-lg-3" style="background-color: #AD938B; min-height: 300px">
+				<h2 class="text-light font-weight-lighter text-center mt-4">NEWS & PROMO</h2>
+				<hr>
+				<img src="assets/images/Banner.jpg" class="img-fluid img-thumbnail">
+			</div>
+<!-- Isi Content -->
+			<div class="col-12 col-md-7 col-lg-9 bg-light" style="min-height: 600px">
+				<h2 class="mt-4 text-center text-secondary">ORDER</h2>			
+				<form action="" method="">
+					<div class="form-group">
+            <label for="nama">Nama Kue :</label>
+    				<input type="text" class="form-control" name ="nama" id="nama" placeholder="Nama Kue" required="">
+  				</div>
+  				<div class="form-group">
+  					<label for="harga">Harga Kue :</label>
+  					<input type="number" class="form-control" name="harga" id="harga" placeholder="Harga Kue">
+  				</div>
+  				<div class="form-group">
+    				<label for="jumlah">Jumlah :</label>
+    				<input type="number" class="form-control" name="jumlah"  id="jumlah" placeholder="Jumlah Kue" required="">
+  				</div>
+  				<button type="submit" class="btn btn-info w-100">Bayar</button>
+				</form>
+			</div>
+<!-- Footer -->
+			<div class="col-12 bg-dark">
+				<p class="text-center mt-2 text-light">Footer</p>
+				<hr style="border-top: 1px solid white">
+				<p class="text-center text-light">Footer</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
